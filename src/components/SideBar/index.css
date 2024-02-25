@@ -1,0 +1,107 @@
+.con{
+    display: flex;
+    flex-direction: column;   
+    height: 100vh;
+    width: 100vw; 
+}
+.ulSide{
+    list-style: none;   
+    height: 100vh;
+    width: 5vw; 
+    background-color: #fcfbfb;
+    font-size: 0.5rem;
+    margin: 0rem;
+    box-shadow: 0px 0px 1px black;
+    
+}
+.mainCon{
+   display: flex;
+   flex-direction: row;
+   padding-top: 2rem;
+   height: 100vh;
+   width: auto;
+  
+}
+.list{
+  margin-left: -40px;
+  padding-top: .2rem;
+  font-size: 0.3rem;
+}
+.checkBox{
+    height: 0.5rem;
+    width: 0.5rem;
+}
+td{
+    font-size: 0.2rem;
+}
+th{
+    font-size: 0.2rem;
+}
+
+.Btn{
+    height: 0.6rem;
+    width: auto;
+    font-size: 0.3rem;
+    margin: 0.2rem;
+    background-color: #fcfbfb;
+    box-shadow: 0px 0px 0.2px rgb(186, 185, 185);
+    border: 0.3px black solid;
+}
+
+.Btn-ref{
+    height: 0.6rem;
+    width: 1.5rem;
+    font-size: 3px;
+    margin: 0.2rem;
+    padding: 2px;
+    margin-left: 14rem;
+    background-color: #655da9;
+    color: #fcfbfb;
+    box-shadow: 0px 0px 0.2px rgb(186, 185, 185);
+    border: 0.3px black solid; 
+}
+.ref-icon{
+    font-size:2px ;
+}
+.detailsCon{
+    display: flex;
+    flex-direction: column;
+    height: 2.8rem;
+    font-size: 0.3rem;    
+    width: 90vw;
+    box-shadow: 0px 0px 2px black;
+}
+.btnCon{
+  display: flex;
+  flex-direction: row;
+  
+}
+.setting{
+    display: flex;
+    justify-content: space-between;
+}
+.navigationBarCon{
+    background-color: #fcfbfb;
+    padding-top: 2rem;
+    padding-bottom: 0.1rem;
+    box-shadow: 0px 0px 2px rgb(91, 90, 90);
+}
+.naviItem{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.3rem;
+    height: auto;
+    padding-top: 1rem;
+}
+.ulNavi{
+    list-style: none;
+    font-size: 0.3rem;
+}
+.liNavi{
+    font-size: 0.3rem;
+    justify-items: right;
+}
+.setting{
+    margin-top: -2rem;
+    padding: .2rem;
+}
